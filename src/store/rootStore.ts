@@ -1,5 +1,5 @@
 import { createContext, useContext } from 'react'
-import Store from './user'
+import Store from './store'
 
 class RootStore {
   appStore: Store
