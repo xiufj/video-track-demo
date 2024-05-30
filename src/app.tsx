@@ -88,7 +88,7 @@ const App = observer(() => {
       minStart: beforeTrack ? beforeTrack.end : 0, // 可以调节的最小start
       maxStart: trackItem.end - 10,
       minEnd: trackItem.start + 10,
-      maxEnd: afterTrack ? afterTrack.start : 0
+      maxEnd: afterTrack ? afterTrack.start : 4800 // 可以调节的最大end
     }
     Object.assign(limitData, {
       ...data
