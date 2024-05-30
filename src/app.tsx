@@ -66,7 +66,7 @@ const App = observer(() => {
   // 辅助线
   const auxiliaryLine = () => (
     <div
-      className="z-30 w-px absolute -top-5 bottom-0 bg-yellow-300"
+      className="z-30 w-px absolute -top-5 bottom-0 bg-yellow-400"
       style={{ left: `${dropItemLeft}px` }}
     />
   )
@@ -109,7 +109,7 @@ const App = observer(() => {
                       {appStore.selectCoordinate.line === index &&
                         appStore.selectCoordinate.index === i && <DragTool />}
                       <div className="flex flex-col rounded overflow-hidden h-full">
-                        <div className="flex items-center text-xs  pl-2 overflow-hidden h-10 leading-6 bg-[#a17507] bg-opacity-70 text-gray-300">
+                        <div className="flex items-center text-xs  pl-2 overflow-hidden h-10 leading-6 bg-[#8d2e2e]  text-gray-300 font-bold">
                           <span className="shrink-0 text-center">
                             片段 {index},{i}
                           </span>
